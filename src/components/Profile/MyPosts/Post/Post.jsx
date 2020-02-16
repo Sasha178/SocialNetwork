@@ -8,7 +8,7 @@ const Post = (props) => {
                 src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzhofvCZtJaJ8H9GwGqGBnaL3We2NfHrkam_DMxyk8gVUmWQA7'/>
             {props.message}
             <div>
-                <span>Like</span>
+                <span>Like</span> {props.likesCount}
             </div>
         </div>
     )
