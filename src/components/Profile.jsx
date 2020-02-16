@@ -1,10 +1,11 @@
 import React from "react";
+import s from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className='content'>
+        <div className={s.content}>
             <div>
-                <img className='picture_content'
+                <img className={s.picture_content}
                      src='https://klike.net/uploads/posts/2019-01/medium/1547794995_3.jpg'/>
             </div>
             <div>
